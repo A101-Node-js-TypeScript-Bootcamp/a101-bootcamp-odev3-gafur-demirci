@@ -1,4 +1,4 @@
-﻿# CRUD Operations with Node.js and Amazon DynamoDb
+# CRUD Operations with Node.js and Amazon DynamoDb
 
 In this study, the products table was created in Amazon Dynamodb and the contents of the table were added in the format specified below.
 
@@ -17,9 +17,9 @@ If the isDiscount value is false, the product whose id value is given with the h
 The node.js packages used are listed below. You can find the documentation links of the relevant packages at the end of the article.
 
 ### Product Schema :
-```json
+```bash
 {
-    productId: string’,
+    productId: string,
     stock: number,
     productName: string,
     isDiscount: boolean,
