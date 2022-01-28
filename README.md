@@ -18,16 +18,16 @@ The node.js packages used are listed below. You can find the documentation links
 
 ### Product Schema :
 ```json
-    {
-        productId: string’,
-        stock: number,
-        productName: string,
-        isDiscount: boolean,
-        category: {
-        categoryId: number,
-        categoryName: string,
-        }
+{
+    productId: string’,
+    stock: number,
+    productName: string,
+    isDiscount: boolean,
+    category: {
+    categoryId: number,
+    categoryName: string,
     }
+}
 ```
 
 ## Used Technologies
