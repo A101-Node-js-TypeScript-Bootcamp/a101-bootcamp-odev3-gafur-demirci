@@ -16,17 +16,19 @@ If the isDiscount value is false, the product whose id value is given with the h
 
 The node.js packages used are listed below. You can find the documentation links of the relevant packages at the end of the article.
 
-Product Schema :
-{
-    productId: string’,
-    stock: number,
-    productName: string,
-    isDiscount: boolean,
-    category: {
-    categoryId: number,
-    categoryName: string,
+### Product Schema :
+```json
+    {
+        productId: string’,
+        stock: number,
+        productName: string,
+        isDiscount: boolean,
+        category: {
+        categoryId: number,
+        categoryName: string,
+        }
     }
-}
+```
 
 ## Used Technologies
 
