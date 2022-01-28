@@ -1,0 +1,34 @@
+{
+  "name": "hw3",
+  "version": "1.0.0",
+  "description": "Bootcamp Homework 3",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/A101-Node-js-TypeScript-Bootcamp/a101-bootcamp-odev3-gafur-demirci.git"
+  },
+  "keywords": [
+    "Amazon",
+    "DynamoDb",
+    "Lambda",
+    "Node.js",
+    "Typescript"
+  ],
+  "author": "Abdulgafur Demirci",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/A101-Node-js-TypeScript-Bootcamp/a101-bootcamp-odev3-gafur-demirci/issues"
+  },
+  "homepage": "https://github.com/A101-Node-js-TypeScript-Bootcamp/a101-bootcamp-odev3-gafur-demirci#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1065.0",
+    "express": "^4.17.2",
+    "uuid": "^3.3.2"
+  }
+}
